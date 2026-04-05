@@ -1,0 +1,5 @@
+flask
+flask-cors
+pandas
+spacy
+# Note: No model download required - using spacy.blank("ur") for Urdu tokenization
