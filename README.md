@@ -1,0 +1,40 @@
+**Title** Urdu_Seg: A Rule-Based Urdu Tokenization Framework and Annotated
+Dataset for Social Media Text
+
+**Description:** Urdu_Seg is a rule-based Urdu tokenization framework
+designed to handle linguistic and orthographic challenges in Urdu social
+media text. It uses spaCy along with Unicode normalization and
+linguistic rules to process informal text effectively.
+
+Dataset Information 
+Dataset Name: Urdu_Seg Dataset 
+Size: 5,000 Urdu
+sentences Domain: Social media (YouTube, Facebook, Twitter) 
+Format: CSV / TXT 
+Encoding: UTF-8 
+Annotation: Manually annotated (Expert
+tokenization)
+
+Files: - raw_data_5K.csv
+	- expert_tokenized_5K.csv (gold_standard_dataset)
+	spacy_tokenized_5K.csv
+
+Code Information Language: Python Framework: spaCy Features: - Unicode
+normalization - Prefix, suffix, infix rules - Token boundary detection -
+Evaluation metrics
+
+Usage Instructions 1. Load dataset using pandas 2. Initialize spaCy Urdu
+tokenizer 3. Apply tokenizer on text 4. Compare results with expert
+dataset
+
+Requirements - Python 3.8+ - spaCy - NLTK - Stanza - pandas - numpy
+
+Methodology 1. Data collection from social media 2. Manual annotation 3.
+Text normalization 4. Rule-based tokenization 5. Evaluation using
+Precision, Recall, F1-score, Jaccard
+
+Citations Ayesha Rashid, Sajid Mahmood, Reema Choudhary (2026)
+Urdu-Seg: A Rule-Based Framework for Urdu Word Segmentation in Low-Resource Settings
+
+License & Contribution License: MIT / CC BY 4.0 Free for research use
+Contributions are welcome for dataset and rule improvements
