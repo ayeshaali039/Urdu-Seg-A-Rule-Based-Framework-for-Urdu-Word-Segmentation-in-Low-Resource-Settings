@@ -1,0 +1,82 @@
+{
+ "clean": {
+  "skipped_unaligned": 0,
+  "folds": [
+   {
+    "fold": 0,
+    "train_comments": 2792,
+    "predicted": 674,
+    "seconds": 26.6
+   },
+   {
+    "fold": 1,
+    "train_comments": 2793,
+    "predicted": 673,
+    "seconds": 26.0
+   },
+   {
+    "fold": 2,
+    "train_comments": 2793,
+    "predicted": 673,
+    "seconds": 27.6
+   },
+   {
+    "fold": 3,
+    "train_comments": 2793,
+    "predicted": 673,
+    "seconds": 26.7
+   },
+   {
+    "fold": 4,
+    "train_comments": 2793,
+    "predicted": 673,
+    "seconds": 26.3
+   }
+  ]
+ },
+ "noisy": {
+  "skipped_unaligned": 0,
+  "folds": [
+   {
+    "fold": 0,
+    "train_comments": 2722,
+    "predicted": 658,
+    "seconds": 28.8
+   },
+   {
+    "fold": 1,
+    "train_comments": 2725,
+    "predicted": 655,
+    "seconds": 29.8
+   },
+   {
+    "fold": 2,
+    "train_comments": 2723,
+    "predicted": 657,
+    "seconds": 29.0
+   },
+   {
+    "fold": 3,
+    "train_comments": 2723,
+    "predicted": 657,
+    "seconds": 27.6
+   },
+   {
+    "fold": 4,
+    "train_comments": 2727,
+    "predicted": 653,
+    "seconds": 28.7
+   }
+  ]
+ },
+ "independent_ids_mapped_by_text": 75,
+ "params": {
+  "data": "data",
+  "out": "results/crf",
+  "folds": 5,
+  "seed": 13,
+  "c1": 0.1,
+  "c2": 0.1,
+  "iters": 100
+ }
+}

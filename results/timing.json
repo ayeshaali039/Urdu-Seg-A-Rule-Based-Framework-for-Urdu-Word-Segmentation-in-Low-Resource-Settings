@@ -1,0 +1,99 @@
+{
+  "timing": {
+    "Urdu-Seg": {
+      "mean_s": 0.9238697399998272,
+      "sd_s": 0.347858222567274,
+      "sentences": 4810,
+      "tokens": 68557,
+      "ms_per_sentence": 0.19207271101867512,
+      "sentences_per_s": 5206.3616673936085,
+      "tokens_per_s": 74206.34861361822
+    },
+    "Urdu-Seg (spaCy)": {
+      "mean_s": 1.0479880799997772,
+      "sd_s": 0.22372922047759236,
+      "sentences": 4810,
+      "tokens": 68557,
+      "ms_per_sentence": 0.2178769397088934,
+      "sentences_per_s": 4589.746860480534,
+      "tokens_per_s": 65417.72879708191
+    },
+    "Whitespace": {
+      "mean_s": 0.011511080000127549,
+      "sd_s": 0.0031209260139800584,
+      "sentences": 4810,
+      "tokens": 69519,
+      "ms_per_sentence": 0.0023931559251824425,
+      "sentences_per_s": 417858.2721991944,
+      "tokens_per_s": 6039311.689192473
+    },
+    "spaCy": {
+      "mean_s": 0.33671224000008804,
+      "sd_s": 0.0182162590262824,
+      "sentences": 4810,
+      "tokens": 69519,
+      "ms_per_sentence": 0.07000254469856301,
+      "sentences_per_s": 14285.194978355234,
+      "tokens_per_s": 206464.1309148186
+    },
+    "NLTK-word": {
+      "mean_s": 0.6660110800001349,
+      "sd_s": 0.1408981290543492,
+      "sentences": 4810,
+      "tokens": 69519,
+      "ms_per_sentence": 0.13846384199587003,
+      "sentences_per_s": 7222.102070732856,
+      "tokens_per_s": 104381.14633165851
+    },
+    "NLTK-wordpunct": {
+      "mean_s": 0.02925249999989319,
+      "sd_s": 0.0017057472484579375,
+      "sentences": 4810,
+      "tokens": 69519,
+      "ms_per_sentence": 0.006081600831578626,
+      "sentences_per_s": 164430.39056550935,
+      "tokens_per_s": 2376514.8278011736
+    },
+    "Stanza": {
+      "mean_s": 112.1052934200001,
+      "sd_s": 31.67370271945649,
+      "sentences": 4810,
+      "tokens": 69532,
+      "ms_per_sentence": 23.30671380873183,
+      "sentences_per_s": 42.906091704157426,
+      "tokens_per_s": 620.2383302231755
+    },
+    "IndicNLP": {
+      "mean_s": 0.061824180000076015,
+      "sd_s": 0.012456259661067243,
+      "sentences": 4810,
+      "tokens": 69519,
+      "ms_per_sentence": 0.012853259875275679,
+      "sentences_per_s": 77801.27451741512,
+      "tokens_per_s": 1124462.9528432812
+    }
+  },
+  "environment": {
+    "python": "3.9.24",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+    "spacy": "3.7.2",
+    "nltk": "3.9.2",
+    "stanza": "1.11.0",
+    "ram_gb": 7.9
+  },
+  "tokenizer_errors": {
+    "clean/Urdu-Seg (spaCy)": 0,
+    "clean/spaCy": 0,
+    "clean/NLTK-word": 0,
+    "clean/NLTK-wordpunct": 0,
+    "clean/Stanza": 0,
+    "clean/IndicNLP": 0,
+    "noisy/Urdu-Seg (spaCy)": 0,
+    "noisy/spaCy": 0,
+    "noisy/NLTK-word": 0,
+    "noisy/NLTK-wordpunct": 0,
+    "noisy/Stanza": 0,
+    "noisy/IndicNLP": 0
+  }
+}
